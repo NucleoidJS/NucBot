@@ -39,7 +39,7 @@ const generateTable = (contributors) => {
     html += `<a href="https://github.com/${login}">`;
     html += `<img src="https://avatars.githubusercontent.com/u/${id}?v=4&s=100" width="100px;" alt="User ${login}"/>`;
     html += "<br/>";
-    html += `${login}`;
+    html += `<sub>${login}</sub>`;
     html += "</a>";
     html += "</td>";
 
