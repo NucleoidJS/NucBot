@@ -1,1 +1,1 @@
-# template-node
+# NucBot
