@@ -28,8 +28,8 @@ const getContributorsFromIssues = async (repo) => {
 
 const generateTable = (contributors) => {
   let i = 1;
-
   let html = "<table><tr>";
+
   for (const { id, login } of contributors.values()) {
     if (i % 8 === 0) {
       html += "</tr><tr>";
